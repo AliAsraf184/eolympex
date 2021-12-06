@@ -6,16 +6,17 @@ public class Deyisikliklerex {
         Scanner scan = new Scanner(System.in);
           int x= scan.nextInt();
           int n=0;
-          int x1=0;
-              for (int i = 0; x<=1; i++) {
+      
+        while (x>1) {
                   if (x%2==0)
-                  x1=x/2;
+                  x=x/2;
                   else
                   x=x+1;
                   n++;
 
+
               }
-                  System.out.println(n);
+           System.out.println(n);
 
 
           }
